@@ -2,7 +2,7 @@
 
 export default function LeftSection() {
     return (
-      <div className="bg-[#1F2937]  mt-[12px] pt-[24px] pb-[12.95%]  rounded-r-[12px] w-[100%] 2xl:ml-0 xl:ml-[5%]  ">
+      <div className="bg-[#1F2937]  mt-[12px] pt-[24px] pb-[12.95%]  rounded-r-[12px] w-[100%]   2xl:ml-0 sm:ml-[5%]   ">
          <div className="  flex-col border-b-[1px] border-[#374151]    ">
              <div className="flex  hover:bg-[#0284C7] w-full h-[48px]  items-center rounded-[12px]">
              <img src="./Images/Li.svg" alt=" " className="ml-[32px]" />
@@ -64,14 +64,14 @@ export default function LeftSection() {
              <div className="flex my-[16px]">
              <img src="./Images/Li6.svg" alt=" " className="" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] ">GME</h1>
-             <h1 className="text-[#6EE7B7] text-[14px] ml-[64px]  ">+2.50%</h1>
+             <h1 className="text-[#6EE7B7] text-[14px] 2xl:ml-[64px] ml-auto  ">+2.50%</h1>
 
 
              </div>
              <div className="flex">
              <img src="./Images/Li7.svg" alt=" " className="" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] ">TSLA</h1>
-             <h1 className="text-[#F87171] text-[14px] ml-[64px]  ">-2.31%</h1>
+             <h1 className="text-[#F87171] text-[14px] 2xl:ml-[64px] ml-auto  ">-2.31%</h1>
 
 
              </div>
@@ -83,21 +83,22 @@ export default function LeftSection() {
              <div className="flex my-[16px]">
              <img src="./Images/Li8.svg" alt=" " className="" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] ">BTC</h1>
-             <h1 className="text-[#F87171] text-[14px] ml-[64px]  ">-5.65%</h1>
+             <h1 className="text-[#F87171] text-[14px] 2xl:ml-[64px] ml-auto   ">-5.65%</h1>
 
 
              </div>
              <div className="flex my-[16px]">
              <img src="./Images/Li9.svg" alt=" " className="" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] ">ETH</h1>
-             <h1 className="text-[#34D399] text-[14px] ml-[64px]  ">+6.36%</h1>
+             <h1 className="text-[#34D399] text-[14px] 2xl:ml-[64px] ml-auto   ">+6.36%</h1>
+
 
 
              </div>
              <div className="flex">
              <img src="./Images/Li10.svg" alt=" " className="" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] ">DOGE</h1>
-             <h1 className="text-[#34D399] text-[14px] ml-[55px]  ">+2.54%</h1>
+             <h1 className="text-[#34D399] text-[14px] 2xl:ml-[64px] ml-auto  ">+2.54%</h1>
 
 
              </div>

@@ -81,7 +81,7 @@ export default function MainSection() {
 
   return (
     
-    <div className="  ml-8 mt-[12px] pb-[6%] rounded-[12px] w-[80%]   ">
+    <div className="  ml-8 mt-[12px] pb-[6%] rounded-[12px] 2xl:w-[80%] lg:w-[75%] md:w-[70%] sm:w-[65%] mx-auto container   ">
         
                         <h1 className="text-center text-gray-50 text-3xl font-semibold mt-[35px]">Trending Markets</h1>
                     
@@ -183,13 +183,13 @@ export default function MainSection() {
 
                     </div>
                     {/* down_section */}
-                <div className="pt-12 px-[117px] pb-[66px]">
+                <div className="pt-12  pb-[66px] ">
                     {/* heading_div */}
                     <div className="pb-9">
                         <h1 className="text-center text-gray-50 text-3xl font-semibold">Popular Industries</h1>
                     </div>
                     {/* cards_div */}
-                    <div className="flex justify-center ">
+                    <div className="xl:flex justify-center grid grid-rows-2 grid-flow-col gap-y-10  ">
                         {/* card_1 */}
                         {cards?.map((single, index) => (
                             <div key={index}>
