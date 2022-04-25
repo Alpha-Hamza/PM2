@@ -10,7 +10,7 @@ export default function Header() {
       <input
             type={"text"}
             placeholder="Search for a commodity"
-            className="bg-[#374151] focus:outline-none  xl:w-[433px] rounded-[12px] h-[46px] pl-10 placeholder:text-[#FFFFFF] font-regular  "
+            className="bg-[#374151] focus:outline-none  xl:w-[433px] rounded-[12px] h-[46px] pl-10 placeholder:text-[#FFFFFF] text-[#FFFFFF] font-regular  "
           />
           <img src="./Images/Hi2.svg" alt=" " className="absolute left-[16px]" />
           

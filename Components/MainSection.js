@@ -41,31 +41,41 @@ export default function MainSection() {
             id: 1,
             img: "/Images/gme.svg",
             heading: "GameStop",
-            text: "NYSE: GME"
+            text: "NYSE: GME",
+            text2:"$234.84",
+            text3:"+9.85%"
         },
         {
             id: 2,
             img: "/Images/tsl.svg",
             heading: "TSL",
-            text: "NYSE: GME"
+            text: "NYSE: GME",
+            text2:"$428.94",
+            text3:"-2.31%"
         },
         {
             id: 3,
             img: "/Images/bt.svg",
             heading: "BIT",
-            text: "NYSE: GME"
+            text: "NYSE: GME",
+            text2:"$35234.84",
+            text3:"+10.9%"
         },
         {
             id: 4,
-            img: "/Images/eth.svg",
-            heading: "ETH",
-            text: "NYSE: GME"
+            img: "/Images/gme.svg",
+            heading: "GameStop",
+            text: "NYSE: GME",
+            text2:"$234.84",
+            text3:"+9.85%"
         },
         {
             id: 5,
-            img: "/Images/eth.svg",
-            heading: "ETH",
-            text: "NYSE: GME"
+            img: "/Images/gme.svg",
+            heading: "GameStop",
+            text: "NYSE: GME",
+            text2:"$234.84",
+            text3:"+9.85%"
         },
     ]
 
@@ -120,11 +130,11 @@ export default function MainSection() {
                                                 <div>
                                                     <div className="follow w-full rounded-2xl">
                                                         {/* img_text */}
-                                                        <div className="flex items-center py-2 px-[18px]">
+                                                        <div className="flex items-center py-2 px-[18px] cursor-pointer">
                                                             <div>
                                                                 <img src="/Images/add.svg" alt="" className="pr-1" />
                                                             </div>
-                                                            <p className="text-sm font-semibold text-white">Follow</p>
+                                                            <p className="text-sm font-semibold text-white ">Follow</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -133,7 +143,7 @@ export default function MainSection() {
                                             <div className='flex justify-between px-8 pt-[32px]' >
                                                 {/* text_div */}
                                                 <div>
-                                                    <p className='text-xl font-semibold text-white'>$234.84</p>
+                                                    <p className='text-xl font-semibold text-white'>{single.text2}</p>
                                                     <p className='text-sm font-normal text-white pt-[9px] w-[120px]'>Stock price today</p>
                                                 </div>
                                                 {/* img_div */}
@@ -145,7 +155,7 @@ export default function MainSection() {
                                             <div className='flex justify-between px-8 pt-8'>
                                                 {/* left */}
                                                 <div className='flex'>
-                                                    <p className='text-xs font-semibold text-white'>+9.85%</p>
+                                                    <p className='text-xs font-semibold text-white'>{single.text3}</p>
                                                     <p className='text-xs font-normal text-white pl-2'>Increase in stock today</p>
                                                 </div>
                                                 {/* middle */}
