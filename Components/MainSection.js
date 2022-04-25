@@ -91,6 +91,7 @@ export default function MainSection() {
                         centeredSlides={true}
                         navigation={true}
                         slidesPerView={2}
+                        loop={true}
                         coverflowEffect={{
                             rotate: 0,
                             depth: 100,
