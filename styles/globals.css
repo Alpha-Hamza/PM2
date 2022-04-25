@@ -43,6 +43,7 @@ a {
 .swiper-slide {
   display: flex;
   justify-content: center;
+ 
 }
 
 .swiper-button-next {

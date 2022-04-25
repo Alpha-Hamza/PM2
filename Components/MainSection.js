@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -13,56 +14,56 @@ export default function MainSection() {
         {
             id: 1,
             heading: "Technology",
-            img: "/images/computer.png",
+            img: "/Images/lS.svg",
             text: "View more"
         },
         {
             id: 2,
             heading: "Crypto",
-            img: "/images/crypto.png",
+            img: "/Images/LS1.svg",
             text: "View more"
         },
         {
             id: 3,
             heading: "Industrials",
-            img: "/images/industrials.png",
+            img: "/Images/LS2.svg",
             text: "View more"
         },
         {
             id: 4,
             heading: "Healthcare",
-            img: "/images/health.png",
+            img: "/Images/LS2.svg",
             text: "View more"
         }]
     // map_loop_for_slider
     let slider = [
         {
             id: 1,
-            img: "/images/gme.svg",
+            img: "/Images/gme.svg",
             heading: "GameStop",
             text: "NYSE: GME"
         },
         {
             id: 2,
-            img: "/images/tsl.svg",
+            img: "/Images/tsl.svg",
             heading: "TSL",
             text: "NYSE: GME"
         },
         {
             id: 3,
-            img: "/images/bt.svg",
+            img: "/Images/bt.svg",
             heading: "BIT",
             text: "NYSE: GME"
         },
         {
             id: 4,
-            img: "/images/eth.svg",
+            img: "/Images/eth.svg",
             heading: "ETH",
             text: "NYSE: GME"
         },
         {
             id: 5,
-            img: "/images/eth.svg",
+            img: "/Images/eth.svg",
             heading: "ETH",
             text: "NYSE: GME"
         },
@@ -70,7 +71,10 @@ export default function MainSection() {
 
   return (
     
-    <div className="bg-[#1F2937]   ml-8 mt-[12px] pb-[6%] rounded-[12px] w-[80%]    ">
+    <div className="  ml-8 mt-[12px] pb-[6%] rounded-[12px] w-[80%]   ">
+        
+                        <h1 className="text-center text-gray-50 text-3xl font-semibold mt-[35px]">Trending Markets</h1>
+                    
         < Swiper
                         effect={"coverflow"}
                         grabCursor={true}
@@ -89,7 +93,7 @@ export default function MainSection() {
                             clickable: true,
                         }}
                         modules={[EffectCoverflow, Navigation]}
-                        className="mySwiper w-[90%] "
+                        className="mySwiper w-[90%]    "
                     >
                         
                         {/* card_1 */}
@@ -118,7 +122,7 @@ export default function MainSection() {
                                                         {/* img_text */}
                                                         <div className="flex items-center py-2 px-[18px]">
                                                             <div>
-                                                                <img src="/images/add.svg" alt="" className="pr-1" />
+                                                                <img src="/Images/add.svg" alt="" className="pr-1" />
                                                             </div>
                                                             <p className="text-sm font-semibold text-white">Follow</p>
                                                         </div>
@@ -134,7 +138,7 @@ export default function MainSection() {
                                                 </div>
                                                 {/* img_div */}
                                                 <div className=' ml-[10%] '>
-                                                    <img src='/images/Path 2.svg' alt='w-full' />
+                                                    <img src='/Images/Path 2.svg' alt='w-full' />
                                                 </div>
                                             </div>
                                             {/* last_section */}
@@ -147,14 +151,14 @@ export default function MainSection() {
                                                 {/* middle */}
                                                 <div className='flex'>
                                                     <div>
-                                                        <img src='/images/users.png' alt='' />
+                                                        <img src='/Images/users.png' alt='' />
                                                     </div>
                                                     <p className='text-xs font-normal text-white pl-2'>12M Followers</p>
                                                 </div>
                                                 {/* last */}
                                                 <div className='flex'>
                                                     <div>
-                                                        <img src='/images/eye.png' alt='' />
+                                                        <img src='/Images/eye.png' alt='' />
                                                     </div>
                                                     <p className='text-xs font-normal text-white pl-2'>2M Views</p>
                                                 </div>
@@ -164,6 +168,44 @@ export default function MainSection() {
                                 </SwiperSlide>
                         ))}
                     </Swiper>
+                    <div className='border-b-[1px] border-[#1F2937] mt-10 max-w-[90%] mx-auto '>
+
+                    </div>
+                    {/* down_section */}
+                <div className="pt-12 px-[117px] pb-[66px]">
+                    {/* heading_div */}
+                    <div className="pb-9">
+                        <h1 className="text-center text-gray-50 text-3xl font-semibold">Popular Industries</h1>
+                    </div>
+                    {/* cards_div */}
+                    <div className="flex justify-center ">
+                        {/* card_1 */}
+                        {cards?.map((single, index) => (
+                            <div key={index}>
+                                <div className="bg-gray-800 hover:bg-[#36454F] w-[203px] h-[196px] rounded-xl mr-5">
+                                    {/* heading_div */}
+                                    <div>
+                                        <p className="text-white text-lg font-semibold text-center pt-[26px] pb-4">{single.heading}</p>
+                                    </div>
+                                    {/* img_div */}
+                                    <div className="w-full flex justify-center">
+                                        <div className=" border border-solid border-[#4B5563] w-[76px] h-[76px] rounded-[50px]">
+                                            {/* img */}
+                                            <div className="flex items-center h-full w-full justify-center">
+                                                <img src={single.img} alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* text_div */}
+                                    <div className="pt-4 pb-8">
+                                        <p className="text-xs font-normal text-white text-center">{single.text}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            
     </div>
   );
 }

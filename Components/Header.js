@@ -2,8 +2,8 @@
 
 export default function Header() {
   return (
-    <div className="bg-[#1F2937] rounded-[12px] mt-[12px] py-[12px] 2xl:w-full xl:w-[90%] lg:w-full  mx-auto">
-       <div className=" mx-auto container xl:max-w-[96%] lg:w-[90%] flex ">
+    <div className="bg-[#1F2937] rounded-[12px] mt-[12px] py-[12px]    mx-auto">
+       <div className=" mx-auto container max-w-[95%] flex ">
       <img src="./Images/Hi.svg" alt=" " className="cursor-pointer" />
       <img src="./Images/Logo.svg" alt=" " className="ml-[29px]" />
       <div className="relative flex justify-center items-center  ml-[139px] ">
