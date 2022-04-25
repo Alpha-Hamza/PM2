@@ -14,7 +14,7 @@ export default function MainSection() {
         {
             id: 1,
             heading: "Technology",
-            img: "/Images/lS.svg",
+            img: "/Images/LS.svg",
             text: "View more"
         },
         {
