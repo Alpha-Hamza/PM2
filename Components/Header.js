@@ -6,7 +6,7 @@ export default function Header() {
        <div className=" mx-auto container max-w-[95%] flex ">
       <img src="./Images/Hi.svg" alt=" " className="cursor-pointer lg:max-w-auto sm:max-w-[4%] max-w-[8%]" />
       <img src="./Images/Logo.svg" alt=" " className="md:ml-[29px] ml-[15px] lg:max-w-auto md:max-w-[20%] sm:max-w-[25%] max-w-[45%]" />
-      <div className="relative sm:flex justify-center items-center  lg:ml-[139px] md:ml-0 sm:ml-5 mx-auto   hidden ">
+      <div className="relative sm:flex justify-center items-center  lg:ml-[139px] md:ml-auto sm:ml-5 mx-auto   hidden ">
       <input
             type={"text"}
             placeholder="Search for a commodity"
