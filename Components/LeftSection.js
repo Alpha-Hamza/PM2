@@ -33,20 +33,20 @@ export default function LeftSection() {
              <h1 className="text-[#FFFFFF]  font-normal mt-[2px] sm:block hidden ">$175,000</h1>
 
              </div>
-             <div className="xl:ml-[32px] sm:ml-[15px] sm:mx-0 mx-auto mr-5 mt-[24px]">
+             <div className="xl:ml-[32px] sm:ml-[15px] sm:mx-0 mx-auto  mt-[24px]">
              <h1 className="text-[#9CA3AF]  text-[12px]  font-semibold sm:block hidden ">Today’s gain/loss</h1>
              <div className="flex mt-[2px]">
 
              <h1 className="text-[#FFFFFF]  font-normal sm:block hidden ">$7,400</h1>
-             <h1 className="text-[#6EE7B7] text-[14px] ml-auto xl:mr-0 mr-3   font-normal sm:block hidden ">+2.50%</h1>
+             <h1 className="text-[#6EE7B7] text-[14px] ml-auto 2xl:mr-5 mr-3   font-normal sm:block hidden ">+2.50%</h1>
              </div>
 
              </div>
-             <div className="xl:ml-[32px] sm:ml-[15px] sm:mx-0 mx-auto mr-5 my-[24px]">
+             <div className="xl:ml-[32px] sm:ml-[15px] sm:mx-0 mx-auto  my-[24px]">
              <h1 className="text-[#9CA3AF]  text-[12px]  font-semibold sm:block hidden ">Overall gain/loss</h1>
              <div className=" flex mt-[2px]">
              <h1 className="text-[#FFFFFF]  font-normal sm:block hidden ">$4,300</h1>
-             <h1 className="text-[#F87171] text-[14px] ml-auto xl:mr-0 mr-3    font-normal sm:block hidden ">-4.20%</h1>
+             <h1 className="text-[#F87171] text-[14px] ml-auto 2xl:mr-5 mr-3     font-normal sm:block hidden ">-4.20%</h1>
 
              </div>
 
@@ -64,14 +64,14 @@ export default function LeftSection() {
              <div className="flex my-[16px]">
              <img src="./Images/Li6.svg" alt=" " className=" sm:mx-0 mx-auto" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] sm:block hidden  ">GME</h1>
-             <h1 className="text-[#6EE7B7] text-[14px] 2xl:ml-[64px] ml-auto xl:mr-0 mr-3   sm:block hidden  ">+2.50%</h1>
+             <h1 className="text-[#6EE7B7] text-[14px] 2xl:ml-[64px] ml-auto 2xl:mr-0 mr-3   sm:block hidden  ">+2.50%</h1>
 
 
              </div>
              <div className="flex">
              <img src="./Images/Li7.svg" alt=" " className="sm:mx-0 mx-auto" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] sm:block hidden ">TSLA</h1>
-             <h1 className="text-[#F87171] text-[14px] 2xl:ml-[64px] ml-auto xl:mr-0 mr-3  sm:block hidden  ">-2.31%</h1>
+             <h1 className="text-[#F87171] text-[14px] 2xl:ml-[64px] ml-auto 2xl:mr-0 mr-3  sm:block hidden  ">-2.31%</h1>
 
 
              </div>
@@ -83,14 +83,14 @@ export default function LeftSection() {
              <div className="flex my-[16px]">
              <img src="./Images/Li8.svg" alt=" " className=" sm:mx-0 mx-auto" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] sm:block hidden ">BTC</h1>
-             <h1 className="text-[#F87171] text-[14px] 2xl:ml-[64px] ml-auto xl:mr-0 mr-3   sm:block hidden  ">-5.65%</h1>
+             <h1 className="text-[#F87171] text-[14px] 2xl:ml-[70px] ml-auto 2xl:mr-0 mr-3   sm:block hidden  ">-5.65%</h1>
 
 
              </div>
              <div className="flex my-[16px]">
              <img src="./Images/Li9.svg" alt=" " className="sm:mx-0 mx-auto" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] sm:block hidden ">ETH</h1>
-             <h1 className="text-[#34D399] text-[14px] 2xl:ml-[64px] ml-auto xl:mr-0 mr-3   sm:block hidden  ">+6.36%</h1>
+             <h1 className="text-[#34D399] text-[14px] 2xl:ml-[68px] ml-auto 2xl:mr-0 mr-3   sm:block hidden  ">+6.36%</h1>
 
 
 
@@ -98,7 +98,7 @@ export default function LeftSection() {
              <div className="flex">
              <img src="./Images/Li10.svg" alt=" " className="sm:mx-0 mx-auto" />
              <h1 className="text-[#FFFFFF] text-[14px] ml-[8px] sm:block hidden ">DOGE</h1>
-             <h1 className="text-[#34D399] text-[14px] 2xl:ml-[64px] ml-auto xl:mr-0 mr-3  sm:block hidden  ">+2.54%</h1>
+             <h1 className="text-[#34D399] text-[14px] 2xl:ml-[60px] ml-auto 2xl:mr-0 mr-3   sm:block hidden  ">+2.54%</h1>
 
 
              </div>
