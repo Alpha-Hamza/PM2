@@ -79,7 +79,7 @@ export default function MainSection() {
   ];
 
   return (
-    <div className="  sm:ml-8 sm:pl-0 pl-14 mt-[12px] pb-[6%] rounded-[12px] 2xl:w-[80%] lg:w-[75%] md:w-[70%] sm:w-[65%] w-[100%] mx-auto container    ">
+    <div className="    mt-[12px] pb-[6%] rounded-[12px] 2xl:w-[80%] lg:w-[75%] md:w-[70%] sm:w-[65%] w-[100%]  ml-auto  ">
       <h1 className="text-center text-gray-50 text-3xl font-semibold mt-[35px]">
         Trending Markets
       </h1>
