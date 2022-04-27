@@ -7,7 +7,7 @@ export default function LeftSection2({ data }) {
           <></>
           
         ) : (
-            <div className="bg-[#1F2937]  mt-[12px] pt-[24px] pb-[12.95%]  rounded-r-[12px]     absolute z-10 sm:hidden block ">
+            <div className="bg-[#1F2937]  mt-[12px] pt-[24px] pb-[12.95%]  rounded-r-[12px] sm:ml-[5%]    absolute z-10 lg:hidden block ">
           <div className="  flex-col border-b-[1px] border-[#374151]   w-[58px] h-[190px]   ">
             <div className="flex  hover:bg-[#0284C7] w-full h-[48px]  items-center rounded-[12px]">
               <img

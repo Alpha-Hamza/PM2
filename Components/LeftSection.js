@@ -4,7 +4,7 @@ export default function LeftSection({ data }) {
   return (
     <>
       {data ? (
-        <div className="bg-[#1F2937]  mt-[12px] pt-[24px] pb-[12.95%]  rounded-r-[12px] sm:w-[100%]    2xl:ml-0 sm:ml-[5%]  sm:static absolute z-10 sm:block hidden  ">
+        <div className="bg-[#1F2937]  mt-[12px] pt-[24px] pb-[12.95%]  rounded-r-[12px] sm:w-[100%]    2xl:ml-0 sm:ml-[5%]  sm:static absolute z-10 lg:block hidden  ">
         <div className="  flex-col border-b-[1px] border-[#374151] sm:w-auto  w-[58px]   ">
           <div className="flex  hover:bg-[#0284C7] w-full h-[48px]  items-center rounded-[12px]">
             <img

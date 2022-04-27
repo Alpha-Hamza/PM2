@@ -7,8 +7,8 @@ export default function Header() {
   const [active, setActive] = useState(true);
   return (
     <>
-      <div className="bg-[#1F2937] rounded-[12px] mt-[12px] py-[12px]    mx-auto  2xl:w-auto lg:w-[90%] sm:w-[90%] w-[100%] ">
-        <div className=" mx-auto container max-w-[90%] flex ">
+      <div className="bg-[#1F2937] rounded-[12px] mt-[12px] py-[12px]    mx-auto  2xl:w-auto lg:w-[90%]  sm:w-[90%] w-[100%] ">
+        <div className=" mx-auto container lg:max-w-[90%] md:max-w-[95%] max-w-[90%] flex ">
           <img
             onClick={() => setActive(!active)}
             src="./Images/Hi.svg"
