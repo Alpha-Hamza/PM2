@@ -2,7 +2,7 @@
 
 export default function LeftSection() {
   return (
-    <div className="bg-[#1F2937]  mt-[12px] pt-[24px] pb-[12.95%]  rounded-r-[12px] w-[100%]   2xl:ml-0 sm:ml-[5%] sm:block hidden  ">
+    <div className="bg-[#1F2937]  mt-[12px] pt-[24px] pb-[12.95%]  rounded-r-[12px] sm:w-[100%]    2xl:ml-0 sm:ml-[5%]  sm:static absolute z-10 ">
       <div className="  flex-col border-b-[1px] border-[#374151] sm:w-auto  w-[58px]   ">
         <div className="flex  hover:bg-[#0284C7] w-full h-[48px]  items-center rounded-[12px]">
           <img
@@ -46,15 +46,13 @@ export default function LeftSection() {
             Portfolio Overview
           </h1>
         </div>
-        <div className="xl:hidden  flex-col mt-[24px] ">
+        <div className="xl:hidden  flex-col mt-[24px] -mb-10 ">
           <img
             src="./Images/Li4.svg"
             alt=" "
             className="xl:ml-[32px] sm:ml-[15px] sm:mx-0 mx-auto"
           />
-          <h1 className="text-[#FFFFFF] ml-[8px] font-semibold sm:block hidden  ">
-            Portfolio Overview
-          </h1>
+         
         </div>
         <div className="xl:ml-[32px] sm:ml-[15px] sm:mx-0 mx-auto mt-[16px]">
           <h1 className="text-[#9CA3AF]  text-[12px]  font-semibold sm:block hidden ">
